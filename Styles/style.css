@@ -1,0 +1,101 @@
+body {
+    background: url('../Images/Bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: lightcyan;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+h1 {
+    font-family:'Georgia', cursive;
+}
+
+.Prologue {
+    height: 150px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    position: sticky;
+    top: 0px;
+}
+
+.Intro {
+    width: 400px;
+    height: 70px;
+    margin: 30px auto 30px auto;
+}
+
+.Link1 {
+    width: 340px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+}
+
+.Link2 {
+    width: 340px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+}
+
+.Form {
+    width: 400px;
+    height: 200px;
+    margin: 30px auto 30px auto;
+}
+
+.Contact {
+    backdrop-filter: blur(50px);
+    width: 100%;
+    height: 130px;
+    position: sticky;
+    bottom: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+hr {
+    width: 50px;
+    border-style: dotted;
+    border-width: 5px 0px 0px 0px; 
+    margin: auto;  
+}
+
+table {
+    font-family: 'Georgia';
+    margin: 10px auto 10px auto;
+}
+
+input {
+    font-family: 'Georgia';
+}
+
+.nText {
+    font-family: 'Times New Roman';
+}
+
+.IntroPara {
+    font-family: 'Georgia';
+}
+
+.ctc {
+    margin: 0px;
+}
+
+.IR {
+    margin: 40px 0px 10px 5px;
+    font-family: 'Georgia';
+    text-align: left;
+    font-size: 30px;
+}
+
+.SWR {
+    margin: 40px 0px 10px 1185px;
+    font-family: 'Georgia';
+    text-align: left;
+    font-size: 30px;
+}
