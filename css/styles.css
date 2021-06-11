@@ -1,0 +1,283 @@
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: whitesmoke;
+    line-height: 2;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: 'Montserrat';
+    padding-bottom: 4%;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.carousel-item{
+    padding: 5% 10% 5% 10%;
+}
+
+.container-fluid{
+    padding: 2% 15% 7%;
+}
+
+.dLoad{
+    margin: 3% 3% 3% 0;
+}
+
+.faq{
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 6%;
+}
+.fBox{
+    text-align: center;
+}
+
+.fb:hover{
+    color: rgb(55, 55, 255);
+}
+
+.h1BS{
+    padding: 10% 5% 10% 5%;
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    font-size: 2em;
+}
+
+.insta:hover{
+    color: crimson;
+}
+
+.IR{
+    color: whitesmoke;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.logo{
+    color: #278fd4;
+}
+
+.logo:hover{  
+    color: #99d3fa;
+}
+
+.logoHref{
+    color:rgb(51, 51, 51);
+}
+
+
+.navbar{
+    padding-bottom: 5%;
+}
+
+.navbarAdnl{
+    font-weight: bolder; 
+    font-size: 1.5em; 
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding: 0 30px;
+}
+
+.pressPics{
+    width: 20%;
+    margin: 0 20px 0 20px;
+}
+
+.Seps{
+    padding: 0 0 20% 0 ;
+}
+
+.snapClass{
+    padding-top: 5%;
+}
+
+.socialBtn{
+    margin: 20px 10px;
+}
+
+.SocialLogo{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 2em;
+    padding: 5% 10% 5% 10%;
+}
+
+.titleImg{
+    width: 50%;
+}
+
+.testiImg{
+    width: 1200px;
+    margin: 30px;
+}
+
+.twit:hover{
+    color: #278fd4;
+}
+
+.yt:hover{
+    color:red;
+}
+
+@media (max-width: 1920px) and (min-width: 1371px) {
+    .testiImg{
+        width: 1000px;
+        margin: 30px;
+    }
+    #title{
+        text-align: center;
+    }
+    #footer{
+        text-align: center;
+        padding: 5% 10% 5% 10%;
+        color: rgb(34, 34, 34);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1370px) and (min-width: 1001px) {
+    .testiImg{
+        width: 800px;
+        margin: 30px;
+    }
+    #title{
+        text-align: center;
+    }
+    h1{
+        padding-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        color: whitesmoke;
+        line-height: 2;
+    }
+    #footer{
+        text-align: center;
+        padding: 5% 10% 5% 10%;
+        color: rgb(34, 34, 34);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 700px) {
+    .testiImg{
+        width: 600px;
+        margin: 30px;
+    }
+    h1{
+        padding-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        color: whitesmoke;
+        line-height: 2;
+    }
+    #title{
+        text-align: center;
+    }
+    .SocialLogo{
+        font-size: 1em;
+        padding-top: 4%;
+    }
+    #footer{
+        text-align: center;
+        padding: 5% 10% 5% 10%;
+        color: rgb(34, 34, 34);
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 699px) and (min-width: 0px) {
+    .testiImg{
+        width: 200px;
+        margin: 30px;
+    }
+    h1{
+        padding-top: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        color: whitesmoke;
+        line-height: 2;
+    }
+    #title{
+        text-align: center;
+    }
+    .SocialLogo{
+        backdrop-filter: blur(5px);
+        font-size: 1em;
+        padding-top: 4%;
+    }
+    #footer{
+        text-align: center;
+        padding: 5% 10% 5% 10%;
+        color: rgb(34, 34, 34);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .navbarAdnl{
+        font-weight: bolder; 
+        font-size: 1em; 
+        color: whitesmoke;
+    }
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#press{
+    padding: 0 15% 5% 15%;
+    text-align: center;
+    background-color: #278fd4;
+    color:whitesmoke;
+}
+
+#DownloadsOnly{
+    padding: 3% 15% 3% 15%;
+    text-align: center;
+}
+
+#socialCol{
+    background-color: #278fd4;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+
+#screenshots{
+    text-align: center;
+    background-color: #278fd4;
+    color:whitesmoke
+}
+
+#title{
+    background-image: url("../images/SVNR.png");
+    background-size: cover;
+}
